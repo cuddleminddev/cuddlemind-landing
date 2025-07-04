@@ -94,6 +94,16 @@
             ],
             "scripts": []
           }
+        },
+        "prerender": {
+          "builder": "@angular-devkit/build-angular:prerender",
+          "options": {
+            "browserTarget": "cuddlemind-landing:build:production", 
+            "serverTarget": "cuddlemind-landing:server:production",
+            "routes": [
+              "/"
+            ]
+          }
         }
       }
     }
